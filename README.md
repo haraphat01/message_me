@@ -2,6 +2,8 @@
 
 This is a Realtime Chat App built with Ruby on Rails.
 
+![Screenshot](./images/message.png)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
