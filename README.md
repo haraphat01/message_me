@@ -1,8 +1,10 @@
 
 
+# message_me
+
 This is a Realtime Chat App built with Ruby on Rails.
 
-![Screenshot](../images/message.png)
+![Screenshot](message.png)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -26,4 +28,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# message_me
