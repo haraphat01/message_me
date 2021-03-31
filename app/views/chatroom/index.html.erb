@@ -7,18 +7,18 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui feed">
-          <%= render @messages %>
+          <%= render @message %>
         </div>
       </div>
       <div class="extra content">
-        <form class="ui reply form">
+        <%= form_with(model: @Message, local: true, html: {class: "ui reply form", role: "form"}) do |f|%>
           <div class="field ">
             <div class="ui fluid icon input">
-              <input type="text" placeholder="Type a message....">
-              <i class="border inverted orange edit icon"></i>
+              <%= f.text_field :body, placeholder: "Type a message...." %>
+              <%=f.button '<i class="bordered inverted orange edit icon"></i>'. html_safe%>
             </div>
           </div>
-        </form>
+        <%end%>
       </div>
     </div>
   </div>
