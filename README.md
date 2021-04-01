@@ -6,25 +6,37 @@ This is a Realtime Chat App built with Ruby on Rails.
 
 ![Screenshot](message.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a realtime messaging app, built with Rails, the App allows users to message to everyone on the app.
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby v2.7.0
+- Ruby on Rails v5.2.4
 
-* System dependencies
+## Live Demo
 
-* Configuration
+TBA
 
-* Database creation
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Prerequisites
 
-* Deployment instructions
+Ruby: 2.6.3
+Rails: 5.2.3
+Postgres: >=9.5
 
-* ...
+### Setup
+
+Instal gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+```
+   rails db:create
