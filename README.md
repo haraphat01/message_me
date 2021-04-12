@@ -6,7 +6,7 @@ This is a Realtime Chat App built with Ruby on Rails.
 
 ![Screenshot](message.png)
 
-This is a realtime messaging app, built with Rails, the App allows users to message to everyone on the app.
+This is a realtime messaging app, built with Rails, the App allows users to message to everyone on the app. It also uses Action cable for the real time synchronization of messages from users.
 
 ## Built With
 
